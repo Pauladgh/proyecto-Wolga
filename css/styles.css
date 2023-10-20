@@ -198,6 +198,40 @@ textarea {
     padding: 10px;
 }
 
+.icono-grande {
+    width: 40px;
+    padding: 10px;
+    filter: invert();
+}
+
+.box-bt-flotante{
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    bottom: 8%;
+    margin: 0 60px 40px 0;
+}
+
+.bt-flotante {
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border-color: rgba(28, 89, 168, 0);
+    animation-name: myanimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes myanimation {
+    0% {background-color: rgb(28, 89, 168);}
+    25% {background-color: rgb(122,143,119);}
+    50% {background-color: rgb(251,185,185)}
+    75% {background-color: rgb(122,143,119);}
+    100% {background-color: rgb(28, 89, 168);}
+}
+
 @media(max-width:1024px){
     .flex-columna img{
         width: 400px;
@@ -340,6 +374,18 @@ textarea {
         height: 150px;
         resize: none;
 }
+.icono-grande {
+    width: 30px;
+}
+.box-bt-flotante{
+    bottom: 4%;
+    margin: 0 30px 20px 0;
+}
+.bt-flotante {
+    width: 85px;
+    height: 85px;
+}
+
 }
 @media(max-width:370px) {
     .flex-img {
@@ -388,5 +434,24 @@ textarea {
 }
     .flex-footer{
         font-size: 13px;
+}
+    .icono-grande {
+        width: 20px;
+}
+    .box-bt-flotante{
+        bottom: 4%;
+        margin: 0 30px 20px 0;
+}
+    .bt-flotante {
+        width: 70px;
+        height: 70px;
+}
+
+@keyframes myanimation {
+    0% {background-color: rgb(28, 89, 168);}
+    25% {background-color: rgb(122,143,119);}
+    50% {background-color: rgb(251,185,185)}
+    75% {background-color: rgb(122,143,119);}
+    100% {background-color: rgb(28, 89, 168);}
 }
 }
