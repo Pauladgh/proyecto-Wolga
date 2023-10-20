@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 9px 0 9px 0;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0 20px 0;
+    position:sticky;
+    top:0px;
+}
+
+.flex-system {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-img {
+    width: 400px;
+}
+
+.flex-menu {
+    color: rgb(64, 122, 79);
+    text-decoration:none;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    color: rgb(251,185,185);
+}
+
+.seccionInicio {
+    padding-top: 170px;
+    padding-bottom: 170px;
+    background-image: url("/imagenes/costura.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color: rgb(87, 104, 84);
+}
+
+.titulo-principal {
+    background-color: rgba(250, 235, 215, 0.527);
+    padding: 80px 0 80px 0;
+    font-size:50px;
+}
+
+.flex-nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.flex-columna {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.flex-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color: rgb(250, 249, 245);
+}
+
+.flex-filaproductos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-filaproductos article {
+    margin: 15px 5px 15px 5px;
+}
+
+.product-box {
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #cecde994;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-box img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-box p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.a-button {
+    background-color: rgb(122,143,119);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.a-button:hover {
+    background-color: rgb(157, 196, 151);
+}
+
+.flex-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 170px 15px 170px;
+    padding: 150px;
+}
+
+.contacto-item {
+    margin: 50px;
+    padding: 10px;
+}
+
+.flex-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top: 1px;
+    border-top:groove;
+    padding-top: 10px;
+    margin: 20px 200px 0 0;
+}
+
+.input-contacto {
+    width: 400px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(40,101,174);
+    color: white;
+}
+
+.flex-iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 1px 1px 1px;
+}
+
+.icono {
+    width: 25px;
+    padding: 10px;
+}
+
+@media(max-width:1024px){
+    .flex-columna img{
+        width: 400px;
+}
+    .flex-menu{
+        font-size: 20px;
+        margin: 0 17px 0 17px;
+}
+    .flex-columna {
+        font-size: 12px;
+}
+    h2 {
+        font-size: 40px
+}
+    .input-contacto {
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+    textarea {
+    width: 300px;
+    height: 200px;
+    resize: none;
+    margin-bottom: 10px;
+}
+    .product-box {
+        width: 180px;
+        height: 390px;
+}
+    .product-box h2 {
+        font-size: 14px
+}
+    .product-box p {
+        font-size: 11px
+}
+    .contacto-item {
+        font-size: 13px;
+}
+    article
+    .flex-redes {
+    margin: 20px 0 0 0;
+}
+}
+
+@media(max-width:768px){
+    .flex-img {
+        width: 320px;
+}
+    .flex-menu{
+        font-size: 20px;
+        margin: 0 17px 0 17px;
+}
+    .titulo-principal {
+        font-size: 40px        
+}
+    h2 {
+        font-size: 40px;        
+}
+    .flex-columna img{
+        width: 370px;
+}
+    .flex-columna {
+        font-size: 12px;
+}
+    .flex-nosotros {
+        display: flex;
+        flex-direction: column;
+}
+    .flex-contacto {
+        display: flex;
+        flex-direction: column;
+}
+    .flex-filaproductos {
+        display: flex;
+        flex-direction: column;
+}
+    .product-box {
+        width: 300px;
+        height: 460px;
+}
+    .product-box h2{
+        font-size: 14px
+}
+    .product-box p{
+        font-size: 11px
+}
+    .flex-productos {
+        padding: 90px;
+}
+    .flex-contacto{
+        padding: 90px;
+}
+    article.contacto-item {
+        font-size: 13px;
+        width: 400px;
+        text-align: center;
+}
+    .flex-redes {
+        margin: 20px 0 0 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center
+}
+}
