@@ -247,8 +247,8 @@ textarea {
         width: 320px;
 }
     .flex-menu{
-        font-size: 20px;
-        margin: 0 17px 0 17px;
+        font-size: 17px;
+        margin: 0 15px 0 15px;
 }
     .titulo-principal {
         font-size: 40px        
@@ -301,4 +301,8 @@ textarea {
         flex-direction: column-reverse;
         align-items: center
 }
+}
+
+@media(max-width:480px){
+
 }
