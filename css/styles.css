@@ -254,148 +254,148 @@ textarea {
 
 /* Establezco las medidas que deben cambiar para pantallas de hasta 1024px */
 @media(max-width:1024px){
-    .flex-columna img{
-        width: 400px;
+.flex-columna img{
+    width: 400px;
 }
-    .flex-menu{
-        font-size: 20px;
-        margin: 0 17px 0 17px;
+.flex-menu{
+    font-size: 20px;
+    margin: 0 17px 0 17px;
 }
-    .flex-columna {
-        font-size: 12px;
+.flex-columna {
+    font-size: 12px;
 }
-    h2 {
-        font-size: 40px
+h2 {
+    font-size: 40px
 }
-    .input-contacto {
+.input-contacto {
     width: 300px;
     height: 20px;
     margin-bottom: 10px;
 }
-    textarea {
+textarea {
     width: 300px;
     height: 200px;
     resize: none;
     margin-bottom: 10px;
 }
-    .product-box {
-        width: 180px;
-        height: 390px;
+.product-box {
+    width: 180px;
+    height: 390px;
 }
-    .product-box h2 {
-        font-size: 14px
+.product-box h2 {
+    font-size: 14px
 }
-    .product-box p {
-        font-size: 11px
+.product-box p {
+    font-size: 11px
 }
-    .contacto-item {
-        font-size: 13px;
+.contacto-item {
+    font-size: 13px;
 }
-    article.flex-redes {
-        margin: 20px 0 20px 0;
+article.flex-redes {
+    margin: 20px 0 20px 0;
 }
 }
 
 /* Establezco las medidas que deben cambiar para pantallas de hasta 768px */
 @media(max-width:768px){
-    .flex-img {
-        width: 320px;
+.flex-img {
+    width: 320px;
 }
-    .flex-menu{
-        font-size: 17px;
-        margin: 0 15px 0 15px;
+.flex-menu{
+    font-size: 17px;
+    margin: 0 15px 0 15px;
 }
-    .titulo-principal {
-        font-size: 40px        
+.titulo-principal {
+    font-size: 40px        
 }
-    h2 {
-        font-size: 40px;        
+h2 {
+    font-size: 40px;        
 }
-    .flex-columna img{
-        width: 370px;
+.flex-columna img{
+    width: 370px;
 }
-    .flex-columna {
-        font-size: 12px;
+.flex-columna {
+    font-size: 12px;
 }
-    .flex-nosotros {
-        display: flex;
-        flex-direction: column;
+.flex-nosotros {
+    display: flex;
+    flex-direction: column;
 }
-    .flex-contacto {
-        display: flex;
-        flex-direction: column;
+.flex-contacto {
+    display: flex;
+    flex-direction: column;
 }
-    .flex-filaproductos {
-        display: flex;
-        flex-direction: column;
+.flex-filaproductos {
+    display: flex;
+    flex-direction: column;
 }
-    .product-box {
-        width: 300px;
-        height: 460px;
+.product-box {
+    width: 300px;
+    height: 460px;
 }
-    .product-box h2{
-        font-size: 14px
+.product-box h2{
+    font-size: 14px
 }
-    .product-box p{
-        font-size: 11px
+.product-box p{
+    font-size: 11px
 }
-    .flex-productos {
-        padding: 90px;
+.flex-productos {
+    padding: 90px;
 }
-    .flex-contacto{
-        padding: 90px;
+.flex-contacto{
+    padding: 90px;
 }
-    article.contacto-item {
-        font-size: 13px;
-        width: 400px;
-        text-align: center;
+article.contacto-item {
+    font-size: 13px;
+    width: 400px;
+    text-align: center;
 }
-    .flex-redes {
-        margin: 20px 0 0 0;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center
+.flex-redes {
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center
 }
 }
 
 /* Establezco las medidas que deben cambiar para pantallas de hasta 480px */
 @media(max-width:480px) {
-    .flex-menu {
-        margin: 0 9px 0 9px;
-        font-size: 15px;
+.flex-menu {
+    margin: 0 9px 0 9px;
+    font-size: 15px;
 }
-    .titulo-principal {
-        font-size: 35px;
+.titulo-principal {
+    font-size: 35px;
 }
-    .seccionInicio {
-        padding-top: 120px;
-        padding-bottom: 120px;
+.seccionInicio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-    .flex-columna img{
-        width: 290px;
+.flex-columna img{
+    width: 290px;
 }
-    .flex-nosotros {
-        margin-top: 50px;
-        margin-bottom: 50px;
+.flex-nosotros {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-    .flex-contacto {
-        margin: 0;
-        padding: 0;
+.flex-contacto {
+    margin: 0;
+    padding: 0;
 }
-    article.contacto-item {
-        width: 280px;
-        text-align: center;
-        font-size: 12px;
-        margin-bottom: 0px;
+article.contacto-item {
+    width: 280px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0px;
 }
-    .input-contacto {
-        width: 320px;
-        height: 22px;
+.input-contacto {
+    width: 320px;
+    height: 22px;
 }
-    textarea {
-        width: 320px;
-        height: 150px;
-        resize: none;
+textarea {
+    width: 320px;
+    height: 150px;
+    resize: none;
 }
 .icono-grande {
     width: 30px;
@@ -413,70 +413,62 @@ textarea {
 
 /* Establezco las medidas que deben cambiar para pantallas de hasta 370px */
 @media(max-width:370px) {
-    .flex-img {
-        width: 220px;
+.flex-img {
+    width: 220px;
 }
-    .flex-menu {
-        margin: 0 5px 0 5px;
-        font-size: 11px;
+.flex-menu {
+    margin: 0 5px 0 5px;
+    font-size: 11px;
 }
-    .titulo-principal {
-        font-size: 25px;
+.titulo-principal {
+    font-size: 25px;
 }
-    .seccionInicio {
-        padding-top: 70px;
-        padding-bottom: 70px;
+.seccionInicio {
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-    .flex-columna img{
-        width: 210px;
+.flex-columna img{
+    width: 210px;
 }
-    .flex-nosotros {
-        margin-top: 50px;
-        margin-bottom: 50px;
+.flex-nosotros {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-    .product-box {
-        width: 210px;
-        height: 400px;
+.product-box {
+    width: 210px;
+    height: 400px;
 }
-    .flex-contacto {
-        margin: 0;
-        padding: 0;
+.flex-contacto {
+    margin: 0;
+    padding: 0;
 }
-    article.contacto-item {
-        width: 220px;
-        text-align: center;
-        font-size: 12px;
-        margin-bottom: 0px;
+article.contacto-item {
+    width: 220px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0px;
 }
-    .input-contacto {
-        width: 220px;
-        height: 22px;
+.input-contacto {
+    width: 220px;
+    height: 22px;
 }
-    textarea {
-        width: 220px;
-        height: 120px;
-        resize: none;
+textarea {
+    width: 220px;
+    height: 120px;
+    resize: none;
 }
-    .flex-footer{
-        font-size: 13px;
+.flex-footer{
+    font-size: 13px;
 }
-    .icono-grande {
-        width: 20px;
+.icono-grande {
+    width: 20px;
 }
-    .box-bt-flotante{
-        bottom: 4%;
-        margin: 0 30px 20px 0;
+.box-bt-flotante{
+    bottom: 4%;
+    margin: 0 30px 20px 0;
 }
-    .bt-flotante {
-        width: 70px;
-        height: 70px;
-}
-
-@keyframes myanimation {
-    0% {background-color: rgb(28, 89, 168);}
-    25% {background-color: rgb(122,143,119);}
-    50% {background-color: rgb(251,185,185)}
-    75% {background-color: rgb(122,143,119);}
-    100% {background-color: rgb(28, 89, 168);}
+.bt-flotante {
+    width: 70px;
+    height: 70px;
 }
 }
