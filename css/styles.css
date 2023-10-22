@@ -4,11 +4,18 @@
     font-family: 'Playfair Display', serif;
 }
 
+/* Establezco un fondo para el header, con un padding top y bottom */
 header {
     background-color: rgb(255, 255, 255);
     padding: 9px 0 9px 0;
 }
 
+/* Imagen del header */
+.flex-img {
+    width: 400px;
+}
+
+/* Para el menu pongo un fondo blanco, con un paddinf top y bottom. Con position sticky y top 0px le pido que al bajar se mantenga en la parte superior siempre */
 nav {
     background-color: rgb(255, 255, 255);
     padding: 20px 0 20px 0;
@@ -16,6 +23,7 @@ nav {
     top:0px;
 }
 
+/* Configuro la disposicion de los elementos del menu */
 .flex-system {
     display:flex;
     flex-direction: row;
@@ -24,10 +32,7 @@ nav {
     align-items: center;
 }
 
-.flex-img {
-    width: 400px;
-}
-
+/* Configuro los botones del menu, la separacion entre ellos, el color, tamaño y su comportamiento cuando no tienen el cursor arriba */
 .flex-menu {
     color: rgb(64, 122, 79);
     text-decoration:none;
@@ -35,12 +40,13 @@ nav {
     margin-right: 40px;
     font-size: 20px;
 }
-
+/* Defino que en el menu, al pasar el cursor por los botones, los mismos se pongan de otro color y se subrayen por arriba */
 nav a:hover {
     text-decoration: overline;
     color: rgb(251,185,185);
 }
 
+/* Configuro la seccion de inicio, con la imagen de fondo y los margenes adecuados */
 .seccionInicio {
     padding-top: 170px;
     padding-bottom: 170px;
@@ -51,12 +57,14 @@ nav a:hover {
     color: rgb(87, 104, 84);
 }
 
+/* Para el titulo principal de la página establezco el tamaño de la letra, un fondo y un padding superior e inferor */
 .titulo-principal {
     background-color: rgba(250, 235, 215, 0.527);
     padding: 80px 0 80px 0;
     font-size:50px;
 }
 
+/* Configuro el orden de la seccion Nosotros con su margen y la posición del contenido */
 .flex-nosotros {
     display: flex;
     flex-direction: row;
@@ -64,7 +72,7 @@ nav a:hover {
     justify-content: center;
     margin: 100px;
 }
-
+/* Establezco la disposicion y los margenes de los elementos en la seccion Nosotros */
 .flex-columna {
     display: flex;
     flex-direction: column;
@@ -72,12 +80,13 @@ nav a:hover {
     align-items: flex-start;
     justify-content: left;
 }
-
+/* Para todos los titulos secundarios de la pagina, configuro el mismo valor, con un margen inferior que los separe del texto */
 h2 {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
+/* Configuro la organizacion de la seccion productos, el color de fondo y la posicion del contenido */
 .flex-productos {
     display: flex;
     flex-direction: column;
@@ -86,17 +95,18 @@ h2 {
     padding: 100px;
     background-color: rgb(250, 249, 245);
 }
-
+/* Establezco la disposicion de las cajas de productos en la seccion */
 .flex-filaproductos {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+/* Marco los margenes entre las cajas de productos */
 .flex-filaproductos article {
     margin: 15px 5px 15px 5px;
 }
-
+/* Configuro la caja de productos a la venta */
 .product-box {
     width: 280px;
     padding: 20px;
@@ -105,23 +115,25 @@ h2 {
     text-align: center;
 }
 
+/* Imagenes de las cajas de productos */
 .product-box img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
+/* Titulo de las cajas de productos */
 .product-box h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
-
+/* Parrafos de las cajas de productos */
 .product-box p {
     font-size: 15px;
     color: #666;
     margin-bottom: 20px;
 }
-
+/* Botones de las cajas de productos, con su color y transicion  */
 .a-button {
     background-color: rgb(122,143,119);
     color: #fff;
@@ -133,10 +145,12 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
+/* Comportamiento del boton cuando el cursor esta arriba */
 .a-button:hover {
     background-color: rgb(157, 196, 151);
 }
 
+/* Configuro la organizacion de la seccion Contacto, el color de fondo y la posicion del contenido */
 .flex-contacto {
     display: flex;
     flex-direction: row;
@@ -146,11 +160,13 @@ h2 {
     padding: 150px;
 }
 
+/* Configuracion de los elementos de la seccion contacto */
 .contacto-item {
     margin: 50px;
     padding: 10px;
 }
 
+/* Establezco la configuracion de las redes */
 .flex-redes {
     display: flex;
     flex-direction: column;
@@ -162,12 +178,13 @@ h2 {
     margin: 20px 200px 0 0;
 }
 
+/* Definicion de los campos de entrada de datos del formulario */
 .input-contacto {
     width: 400px;
     height: 22px;
     margin-bottom: 10px;
 }
-
+/* Definicion del campo de texto del formulario */
 textarea {
     width: 400px;
     height: 200px;
@@ -175,6 +192,7 @@ textarea {
     margin-bottom: 10px;
 }
 
+/* Configuro la organizacion de la seccion footer, el color de fondo y la posicion del contenido */
 .flex-footer {
     display: flex;
     flex-direction: column;
@@ -185,6 +203,7 @@ textarea {
     color: white;
 }
 
+/* Configuracion de los iconos y su disposicion */
 .flex-iconos {
     display: flex;
     flex-direction: row;
@@ -192,18 +211,19 @@ textarea {
     align-items: center;
     margin: 1px 1px 1px 1px;
 }
-
+/* Configuracion del tamaño de los iconos mas pequeños */
 .icono {
     width: 25px;
     padding: 10px;
 }
-
+/* Configuracion del tamaño del icono de enviar correo electronico */
 .icono-grande {
     width: 40px;
     padding: 10px;
     filter: invert();
 }
 
+/* Establezco las propiedades para que haya un boton flotante animado que permita enviar un correo  */
 .box-bt-flotante{
     display: flex;
     justify-content: end;
@@ -211,7 +231,7 @@ textarea {
     bottom: 8%;
     margin: 0 60px 40px 0;
 }
-
+/* La configuracion de la parte animada que realiza una iteracion infinita de cinco momentos, cambiando entre los colores principales de la pagina */
 .bt-flotante {
     z-index: 1;
     width: 100px;
@@ -223,7 +243,7 @@ textarea {
     animation-iteration-count: infinite;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+/* Dividi la animacion en cinco momentos marcados por el cambio de color */
 @keyframes myanimation {
     0% {background-color: rgb(28, 89, 168);}
     25% {background-color: rgb(122,143,119);}
@@ -232,6 +252,7 @@ textarea {
     100% {background-color: rgb(28, 89, 168);}
 }
 
+/* Establezco las medidas que deben cambiar para pantallas de hasta 1024px */
 @media(max-width:1024px){
     .flex-columna img{
         width: 400px;
@@ -275,6 +296,7 @@ textarea {
 }
 }
 
+/* Establezco las medidas que deben cambiar para pantallas de hasta 768px */
 @media(max-width:768px){
     .flex-img {
         width: 320px;
@@ -336,6 +358,7 @@ textarea {
 }
 }
 
+/* Establezco las medidas que deben cambiar para pantallas de hasta 480px */
 @media(max-width:480px) {
     .flex-menu {
         margin: 0 9px 0 9px;
@@ -387,6 +410,8 @@ textarea {
 }
 
 }
+
+/* Establezco las medidas que deben cambiar para pantallas de hasta 370px */
 @media(max-width:370px) {
     .flex-img {
         width: 220px;
