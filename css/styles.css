@@ -50,7 +50,7 @@ nav a:hover {
 .seccionInicio {
     padding-top: 170px;
     padding-bottom: 170px;
-    background-image: url(/imagenes/costura.jpg);
+    background-image: url(../imagenes/costura.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     text-align: center;
