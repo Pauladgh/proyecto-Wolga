@@ -40,6 +40,13 @@ nav {
     margin-right: 40px;
     font-size: 20px;
 }
+.flex-menu-marcado, .flex-menu-marcado:hover {
+    color: rgb(64, 122, 79);
+    text-decoration:overline;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
 /* Defino que en el menu, al pasar el cursor por los botones, los mismos se pongan de otro color y se subrayen por arriba */
 nav a:hover {
     text-decoration: overline;
@@ -94,6 +101,16 @@ h2 {
     justify-content: center;
     padding: 100px;
     background-color: rgb(250, 249, 245);
+}
+.flex-productos a {
+    color: rgb(64, 122, 79);
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.flex-productos a:hover {
+    text-decoration: overline;
+    color: rgb(251,185,185);
 }
 /* Establezco la disposicion de las cajas de productos en la seccion */
 .flex-filaproductos {
@@ -283,10 +300,10 @@ textarea {
     height: 390px;
 }
 .product-box h2 {
-    font-size: 14px
+    font-size: 17px
 }
 .product-box p {
-    font-size: 11px
+    font-size: 13px
 }
 .contacto-item {
     font-size: 13px;
@@ -331,13 +348,13 @@ h2 {
 }
 .product-box {
     width: 300px;
-    height: 460px;
+    height: 450px;
 }
 .product-box h2{
-    font-size: 14px
+    font-size: 17px
 }
 .product-box p{
-    font-size: 11px
+    font-size: 14px
 }
 .flex-productos {
     padding: 90px;
@@ -389,7 +406,7 @@ article.contacto-item {
     font-size: 16.5px;
 }
 .product-box {
-    height: 494px;
+    height: 455px;
 }
 .flex-contacto {
     margin: 0;
@@ -459,7 +476,7 @@ textarea {
 }
 .product-box {
     width: 210px;
-    height: 440px;
+    height: 390px;
 }
 .flex-contacto {
     margin: 0;
