@@ -371,12 +371,25 @@ article.contacto-item {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.flex-columna {
+    width: 255px;
+    font-size: 13.5px;
+}
 .flex-columna img{
-    width: 290px;
+    width: 255px;
 }
 .flex-nosotros {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.product-box p {
+    font-size: 13.5px;
+}
+.product-box h2 {
+    font-size: 16.5px;
+}
+.product-box {
+    height: 494px;
 }
 .flex-contacto {
     margin: 0;
@@ -385,7 +398,7 @@ article.contacto-item {
 article.contacto-item {
     width: 280px;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 0px;
 }
 .input-contacto {
@@ -418,7 +431,7 @@ textarea {
 }
 .flex-menu {
     margin: 0 5px 0 5px;
-    font-size: 11px;
+    font-size: 12px;
 }
 .titulo-principal {
     font-size: 25px;
@@ -427,16 +440,26 @@ textarea {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.flex-columna {
+    width: 240px;
+    font-size: 13px;
+}
 .flex-columna img{
-    width: 210px;
+    width: 240px;
 }
 .flex-nosotros {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.product-box p {
+    font-size: 13px;
+}
+.product-box h2 {
+    font-size: 16px;
+}
 .product-box {
     width: 210px;
-    height: 400px;
+    height: 440px;
 }
 .flex-contacto {
     margin: 0;
