@@ -40,19 +40,23 @@ nav {
     margin-right: 40px;
     font-size: 20px;
 }
-.flex-menu-marcado, .flex-menu-marcado:hover {
-    color: rgb(64, 122, 79);
-    text-decoration:overline;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-size: 20px;
-}
 /* Defino que en el menu, al pasar el cursor por los botones, los mismos se pongan de otro color y se subrayen por arriba */
 nav a:hover {
     text-decoration: overline;
     color: rgb(251,185,185);
 }
-
+.carrito-menu, .carrito-menu:hover {
+    color: rgb(64, 122, 79);
+    text-decoration:none;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.carrito-menu img {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+}
 /* Configuro la seccion de inicio, con la imagen de fondo y los margenes adecuados */
 .seccionInicio {
     padding-top: 170px;
@@ -77,7 +81,7 @@ nav a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 100px;
+    padding: 200px;
 }
 /* Establezco la disposicion y los margenes de los elementos en la seccion Nosotros */
 .flex-columna {
@@ -105,12 +109,14 @@ h2 {
 .flex-productos a {
     color: rgb(64, 122, 79);
     text-decoration: none;
-    margin-top: 15px;
+    margin-top: 40px;
+    font-size: 30px;
 }
 
 .flex-productos a:hover {
     text-decoration: overline;
     color: rgb(251,185,185);
+    margin-top: 40px;
 }
 /* Establezco la disposicion de las cajas de productos en la seccion */
 .flex-filaproductos {
@@ -166,6 +172,30 @@ h2 {
 .a-button:hover {
     background-color: rgb(157, 196, 151);
 }
+.flex-promociones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 150px;
+}
+
+.flex-promociones li {
+    border-top: 1px;
+    border-top:groove;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 600px;
+}
+
+ul {
+    list-style: none; /* Elimina las viñetas predeterminadas */
+}
+
+.flex-promociones h2 {
+    margin-bottom: 50px;
+}
 
 /* Configuro la organizacion de la seccion Contacto, el color de fondo y la posicion del contenido */
 .flex-contacto {
@@ -194,7 +224,9 @@ h2 {
     padding-top: 10px;
     margin: 20px 200px 0 0;
 }
-
+.flex-redes p {
+    width: 100px;
+}
 /* Definicion de los campos de entrada de datos del formulario */
 .input-contacto {
     width: 400px;
