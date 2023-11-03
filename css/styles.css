@@ -51,6 +51,10 @@ nav a:hover {
     font-size: 20px;
     margin-left: 40px;
     margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .carrito-menu img {
     width: 22px;
@@ -157,7 +161,7 @@ h2 {
     margin-bottom: 20px;
 }
 /* Botones de las cajas de productos, con su color y transicion  */
-.a-button {
+.a-button, .a-button-e {
     background-color: rgb(122,143,119);
     color: #fff;
     border: none;
