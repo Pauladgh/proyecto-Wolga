@@ -61,6 +61,7 @@ nav a:hover {
     height: 22px;
     margin-right: 4px;
 }
+
 /* Configuro la seccion de inicio, con la imagen de fondo y los margenes adecuados */
 .seccionInicio {
     padding-top: 170px;
@@ -113,14 +114,14 @@ h2 {
 .flex-productos a {
     color: rgb(64, 122, 79);
     text-decoration: none;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 30px;
 }
 
 .flex-productos a:hover {
-    text-decoration: overline;
+    text-decoration-line: underline;
     color: rgb(251,185,185);
-    margin-top: 40px;
+    margin-top: 30px;
 }
 /* Establezco la disposicion de las cajas de productos en la seccion */
 .flex-filaproductos {
@@ -175,30 +176,6 @@ h2 {
 /* Comportamiento del boton cuando el cursor esta arriba */
 .a-button:hover {
     background-color: rgb(157, 196, 151);
-}
-.flex-promociones {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 150px;
-}
-
-.flex-promociones li {
-    border-top: 1px;
-    border-top:groove;
-    margin-top: 20px;
-    padding-top: 20px;
-    width: 600px;
-}
-
-ul {
-    list-style: none; /* Elimina las viñetas predeterminadas */
-}
-
-.flex-promociones h2 {
-    margin-bottom: 50px;
 }
 
 /* Configuro la organizacion de la seccion Contacto, el color de fondo y la posicion del contenido */
@@ -303,6 +280,17 @@ textarea {
     50% {background-color: rgb(251,185,185)}
     75% {background-color: rgb(122,143,119);}
     100% {background-color: rgb(28, 89, 168);}
+}
+
+.nav-volver {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.nav-volver img {
+    width: 50px;
+    margin: 0 0 0 40px;
 }
 
 /* Establezco las medidas que deben cambiar para pantallas de hasta 1024px */
