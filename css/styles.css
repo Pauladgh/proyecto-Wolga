@@ -281,18 +281,28 @@ textarea {
     75% {background-color: rgb(122,143,119);}
     100% {background-color: rgb(28, 89, 168);}
 }
-
-.nav-volver {
+.promociones {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.promocion-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .nav-volver img {
     width: 50px;
     margin: 0 0 0 40px;
 }
-
 /* Establezco las medidas que deben cambiar para pantallas de hasta 1024px */
 @media(max-width:1024px){
 .flex-columna img{
@@ -334,6 +344,13 @@ textarea {
 }
 article.flex-redes {
     margin: 20px 0 20px 0;
+}
+.promociones {
+    max-width: 500px;
+}
+.nav-volver img {
+    width: 40px;
+    margin: 0 0 0 40px;
 }
 }
 
@@ -396,6 +413,13 @@ article.contacto-item {
     display: flex;
     flex-direction: column-reverse;
     align-items: center
+}
+.promociones {
+    max-width: 400px;
+}
+.nav-volver img {
+    width: 30px;
+    margin: 0 0 0 40px;
 }
 }
 
@@ -462,7 +486,13 @@ textarea {
     width: 85px;
     height: 85px;
 }
-
+.promociones {
+    max-width: 300px;
+}
+.nav-volver img {
+    width: 25px;
+    margin: 0 0 0 40px;
+}
 }
 
 /* Establezco las medidas que deben cambiar para pantallas de hasta 370px */
@@ -534,5 +564,12 @@ textarea {
 .bt-flotante {
     width: 70px;
     height: 70px;
+}
+.promociones {
+    max-width: 200px;
+}
+.nav-volver img {
+    width: 20px;
+    margin: 0 0 0 40px;
 }
 }
