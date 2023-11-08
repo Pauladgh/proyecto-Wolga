@@ -116,6 +116,11 @@ h2 {
     text-decoration: none;
     margin-top: 30px;
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .flex-productos a:hover {
@@ -421,6 +426,9 @@ article.contacto-item {
     width: 30px;
     margin: 0 0 0 40px;
 }
+.flex-productos a {
+    font-size: 20px;
+}
 }
 
 /* Establezco las medidas que deben cambiar para pantallas de hasta 480px */
@@ -493,6 +501,7 @@ textarea {
     width: 25px;
     margin: 0 0 0 40px;
 }
+
 }
 
 /* Establezco las medidas que deben cambiar para pantallas de hasta 370px */
