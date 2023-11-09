@@ -293,7 +293,7 @@ textarea {
     align-items: center;
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 80px;
     text-align: center;
 }
 
@@ -351,6 +351,7 @@ article.flex-redes {
 }
 .promociones {
     max-width: 500px;
+    padding: 70px 0 70px 0;
 }
 .nav-volver img {
     width: 40px;
@@ -521,9 +522,13 @@ form{
 .flex-img {
     width: 220px;
 }
-.flex-menu {
-    margin: 0 4px 0 4px;
-    font-size: 11px;
+a.flex-menu, a.carrito-menu {
+    font-size: 12px;
+    margin: 0 5px 0 5px;
+}
+nav.flex-system img{
+    width: 16px;
+    height: 16px;
 }
 .titulo-principal {
     font-size: 25px;
