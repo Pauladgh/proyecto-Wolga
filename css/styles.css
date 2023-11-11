@@ -55,6 +55,8 @@ nav a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
 }
 .carrito-menu img {
     width: 22px;
@@ -248,12 +250,12 @@ textarea {
 }
 /* Configuracion del tamaño de los iconos mas pequeños */
 .emoji {
-    width: 25px;
+    width: 40px;
     padding: 10px;
 }
 /* Configuracion del tamaño del icono de enviar correo electronico */
 .emoji-grande {
-    width: 40px;
+    width: 60px;
     padding: 10px;
     filter: invert();
 }
@@ -497,7 +499,7 @@ form{
     flex-direction: column;
 }
 .emoji-grande {
-    width: 30px;
+    width: 40px;
 }
 .box-bt-flotante{
     bottom: 4%;
@@ -578,9 +580,6 @@ textarea {
 }
 .flex-footer{
     font-size: 13px;
-}
-.emoji-grande {
-    width: 20px;
 }
 .box-bt-flotante{
     bottom: 4%;
