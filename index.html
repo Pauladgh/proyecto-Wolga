@@ -36,15 +36,21 @@
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            ...
+                <div class="col-sm-4">
+                    <!-- Elementos del carrito -->
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <!-- Precio total -->
+                    <p class="text-right">Total: $ <span id="total"></span></p>
+                    <button id="boton-vaciar" class="a-button-e">Vaciar</button>
+                </div>
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="a-button-e" data-bs-dismiss="modal">Seguir</button>
             </div>
         </div>
         </div>
@@ -71,28 +77,11 @@
         <!-- Seccion Productos, que contiene los productos a la venta del emprendimiento -->
         <section id="Productos" class="flex-productos">
             <h2>Productos</h2>
-            <div class="flex-filaproductos">
-                <!-- Producto 1 -->
-                <article class="product-box">
-                    <img src="./imagenes/producto1-mantatusor.jpeg" alt="Manta Tusor">
-                    <h2>Manta de Tusor</h2>
-                    <p>Manta de tusor en color verde claro.</p>
-                    <button class="a-button">Agregar producto</button>
-                </article>
-                <!-- Producto 2 -->
-                <article class="product-box">
-                    <img src="./imagenes/producto2-almohadonlienzo.jpg" alt="Almohadon de Lienzo">
-                    <h2>Almohadon de Lienzo</h2>
-                    <p>Almohadon extra grande, en color beige.</p>
-                    <button class="a-button">Agregar producto </button>
-                </article>
-                <!-- Producto 3 -->
-                <article class="product-box">
-                    <img src="./imagenes/producto3-blazersastrero.png" alt="Blazer Sastrero">
-                    <h2>Blazer Sastrero</h2>
-                    <p>Blazer color coral en talle M. Tela suave.</p>
-                    <button class="a-button">Agregar producto</button>
-                </article>
+            <div class="container">
+                <div class="row">
+                    <!-- Elementos generados a partir del JSON -->
+                    <div id="items" class="col-sm-8 row"></div>
+                </div>
             </div>
             <a href="./pages/promociones.html">VER PROMOCIONES</a>
         </section>
