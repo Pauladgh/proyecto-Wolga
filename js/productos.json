@@ -1,0 +1,7 @@
+{
+    "productos": [
+    {"nombre": "Manta de Tusor", "cantidad": 1},
+    {"nombre": "Almohadón de Lienzo", "cantidad": 1},
+    {"nombre": "Blazer Sastrero", "cantidad": 1}
+    ]
+}
