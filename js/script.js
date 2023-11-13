@@ -6,19 +6,19 @@ const baseDeDatos = [
         id: 1,
         nombre: 'Manta Tusor',
         precio: 200,
-        imagen: '../imagenes/producto1-mantatusor.jpeg'
+        imagen: './imagenes/producto1-mantatusor.jpeg'
     },
     {
         id: 2,
         nombre: 'Almohadon',
         precio: 200,
-        imagen: '../imagenes/producto2-almohadonlienzo.jpg'
+        imagen: './imagenes/producto2-almohadonlienzo.jpg'
     },
     {
         id: 3,
         nombre: 'Blazer Coral',
         precio: 200,
-        imagen: '../imagenes/producto3-blazersastrero.png'
+        imagen: './imagenes/producto3-blazersastrero.png'
     }
 
 ];
