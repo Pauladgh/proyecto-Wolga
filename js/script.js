@@ -1,6 +1,6 @@
-// Este código me permite la funcionalidad del carrito de compras
+// Carrito de compras
 
-// Variables
+// JSON de los productos con su imagen, precio y nombre
 const baseDeDatos = [
     {
         id: 1,
@@ -10,19 +10,19 @@ const baseDeDatos = [
     },
     {
         id: 2,
-        nombre: 'Almohadon de Lienzo',
+        nombre: 'Almohadon',
         precio: 200,
         imagen: '../imagenes/producto2-almohadonlienzo.jpg'
     },
     {
         id: 3,
-        nombre: 'Blazer Sastrero Coral',
+        nombre: 'Blazer Coral',
         precio: 200,
         imagen: '../imagenes/producto3-blazersastrero.png'
     }
 
 ];
-
+//variables con las que voy a trabajar
 let carrito = [];
 const divisa = '$';
 const DOMitems = document.querySelector('#items');
@@ -30,14 +30,12 @@ const DOMcarrito = document.querySelector('#carrito');
 const DOMtotal = document.querySelector('#total');
 const DOMbotonVaciar = document.querySelector('#boton-vaciar');
 
-// Funciones
+// Funciones con las que voy a trabajar
 
-/**
- * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito
- */
+// Creo las cards del producto a partir de json
 function renderizarProductos() {
     baseDeDatos.forEach((info) => {
-        // Estructura
+        // Estructura de card
         const miNodo = document.createElement('div');
         miNodo.classList.add('card', 'col-sm-4');
         // Body
@@ -60,7 +58,7 @@ function renderizarProductos() {
         miNodoBoton.classList.add('bbtn', 'a-button');
         miNodoBoton.textContent = '+';
         miNodoBoton.setAttribute('marcador', info.id);
-        miNodoBoton.addEventListener('click', anyadirProductoAlCarrito);
+        miNodoBoton.addEventListener('click', aniadirProductoAlCarrito);
         // Insertamos
         miNodoCardBody.appendChild(miNodoImagen);
         miNodoCardBody.appendChild(miNodoTitle);
@@ -71,20 +69,14 @@ function renderizarProductos() {
     });
 }
 
-/**
- * Evento para añadir un producto al carrito de la compra
- */
-function anyadirProductoAlCarrito(evento) {
-    // Anyadimos el Nodo a nuestro carrito
+// agregar al carrito
+function aniadirProductoAlCarrito(evento) {
     carrito.push(evento.target.getAttribute('marcador'))
     // Actualizamos el carrito
     renderizarCarrito();
 
 }
 
-/**
- * Dibuja todos los productos guardados en el carrito
- */
 function renderizarCarrito() {
     // Vaciamos todo el html
     DOMcarrito.textContent = '';
@@ -121,8 +113,7 @@ function renderizarCarrito() {
     DOMtotal.textContent = calcularTotal();
 }
 
-/**
- * Evento para borrar un elemento del carrito*/
+// Evento para borrar un elemento del carrito
 function borrarItemCarrito(evento) {
     // Obtenemos el producto ID que hay en el boton pulsado
     const id = evento.target.dataset.item;
@@ -139,9 +130,7 @@ function borrarItemCarrito(evento) {
     renderizarCarrito();
 }
 
-/**
- * Calcula el precio total teniendo en cuenta los productos repetidos
- */
+// calcula precio total
 function calcularTotal() {
     // Recorremos el array del carrito
     return carrito.reduce((total, item) => {
@@ -192,6 +181,7 @@ botonesAgregar.forEach(boton => {
     boton.addEventListener('click', agregarAlCarrito);
 });
 
+// 0 para el icono del carrito
 function vaciarCarro() {
     let cantidadCarro = parseInt(carritoMenu.textContent);
 

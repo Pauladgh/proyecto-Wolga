@@ -59,7 +59,6 @@ nav a:hover {
     background-color: #ffffff;
     border: 1px solid #ffffff;
 }
-
 .carrito-menu img {
     width: 22px;
     height: 22px;
@@ -105,7 +104,9 @@ h2 {
     font-size: 50px;
     margin-bottom: 10px;
 }
-
+.list-group {
+    text-align: right;
+}
 /* Configuro la organizacion de la seccion productos, el color de fondo y la posicion del contenido */
 .flex-productos {
     display: flex;
@@ -324,8 +325,14 @@ textarea {
 .flex-columna {
     font-size: 12px;
 }
+.flex-columna p {
+    width: 260px;
+}
 h2 {
     font-size: 40px
+}
+h5 {
+    font-size: 12px;
 }
 .input-contacto {
     width: 300px;
@@ -369,12 +376,15 @@ a.flex-menu, a.carrito-menu {
     margin: 10px;
     font-size: 16px;
 }
-    .flex-img {
+.flex-img {
     width: 320px;
 }
 .flex-menu{
     font-size: 17px;
     margin: 0 15px 0 15px;
+}
+button.carrito-menu {
+    margin: 10px;
 }
 .titulo-principal {
     font-size: 40px        
@@ -389,9 +399,16 @@ h2 {
     font-size: 12px;
     width: 370px;
 }
+.flex-columna p {
+    font-size: 13px;
+    width: 370px;
+}
 .flex-nosotros {
     display: flex;
     flex-direction: column;
+}
+.card-title {
+    font-size: 14px;
 }
 .flex-contacto {
     display: flex;
@@ -422,6 +439,7 @@ article.contacto-item {
     width: 400px;
     text-align: center;
 }
+
 .flex-redes {
     margin: 20px 0 0 0;
     display: flex;
@@ -461,8 +479,21 @@ a.flex-menu, a.carrito-menu {
     width: 255px;
     font-size: 13.5px;
 }
+.flex-columna p {
+    font-size: 12px;
+    width: 230px;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .flex-columna img{
     width: 255px;
+}
+button.carrito-menu {
+    margin: 5px;
 }
 .flex-nosotros {
     padding: 90px 0 90px 0;
@@ -537,6 +568,9 @@ nav.flex-system img{
 .titulo-principal {
     font-size: 25px;
 }
+button.carrito-menu {
+    font-size: 13px;
+}
 .seccionInicio {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -551,6 +585,15 @@ nav.flex-system img{
 .flex-nosotros {
     padding: 80px 0 80px 0;
 }
+.flex-productos {
+    padding: 50px;
+}
+.card-title {
+    font-size: 16px;
+}
+.list-group {
+    text-align: right;
+}
 .product-box p {
     font-size: 13px;
 }
@@ -560,6 +603,11 @@ nav.flex-system img{
 .product-box {
     width: 210px;
     height: 390px;
+}
+.card-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
 }
 .flex-contacto {
     margin: 0;
