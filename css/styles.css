@@ -89,7 +89,7 @@ nav a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 200px;
+    padding: 150px;
 }
 /* Establezco la disposicion y los margenes de los elementos en la seccion Nosotros */
 .flex-columna {
@@ -98,6 +98,9 @@ nav a:hover {
     margin: 30px;
     align-items: flex-start;
     justify-content: left;
+}
+.flex-columna img {
+    width: 600px;
 }
 /* Para todos los titulos secundarios de la pagina, configuro el mismo valor, con un margen inferior que los separe del texto */
 h2 {
