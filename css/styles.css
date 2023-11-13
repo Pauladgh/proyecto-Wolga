@@ -95,12 +95,12 @@ nav a:hover {
 .flex-columna {
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin: 20px;
     align-items: flex-start;
     justify-content: left;
 }
 .flex-columna img {
-    width: 600px;
+    width: 500px;
 }
 /* Para todos los titulos secundarios de la pagina, configuro el mismo valor, con un margen inferior que los separe del texto */
 h2 {
