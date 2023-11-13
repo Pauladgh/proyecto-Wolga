@@ -60,6 +60,6 @@
 
 ###
 
-<p align="left">Feel free to explore my repositories and contribute if you find something interesting! Your ideas and suggestions are always welcome.<br><br>Thank you for visiting my profile! I hope you find something intriguing here. 😊</p>
+<p align="left">Feel free to explore my repositories and contribute if you find something interesting! Your ideas and suggestions are always welcome.<br><br>Thank you for visiting my profile! 😊</p>
 
 ###
