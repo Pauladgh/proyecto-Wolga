@@ -100,7 +100,7 @@ nav a:hover {
     justify-content: left;
 }
 .flex-columna img {
-    width: 400px;
+    width: 500px;
 }
 /* Para todos los titulos secundarios de la pagina, configuro el mismo valor, con un margen inferior que los separe del texto */
 h2 {
@@ -317,7 +317,7 @@ textarea {
     margin: 0 0 0 40px;
 }
 /* Establezco las medidas que deben cambiar para pantallas de hasta 1024px */
-@media(max-width:1024px){
+@media(max-width:1200px){
 .flex-columna img{
     width: 400px;
 }
